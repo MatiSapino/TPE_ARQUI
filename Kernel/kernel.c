@@ -151,5 +151,5 @@ int main()
 	ncPrint("[Finished]");
 	return 0;	
 
-	// testing
+	// testing stuff
 }
