@@ -99,19 +99,6 @@ int main()
 	ncPrint("  Calling the sample code module returned: ");
 	ncPrintHex(((EntryPoint)sampleCodeModuleAddress)());
 	ncNewline();
-
-	
-	// ncNewline();
-	// int x = 30;
-	// for (int i = x; i < 720; i++)
-	// {
-	// 	for (int j = x; j < 720; j++)
-	// 	{
-	// 		putPixel(0xFF0000, i, j);
-	// 	}
-		
-	// }
-	// ncNewline();
 	
 	
 
