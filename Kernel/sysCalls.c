@@ -1,5 +1,5 @@
-#include <sysCalls.h>
-#include <naiveConsole.h>
+#include "include/sysCalls.h"
+#include "include/naiveConsole.h"
 
 void sys_write(char *text, int lenght, int fd) {
     if (fd == 1) {

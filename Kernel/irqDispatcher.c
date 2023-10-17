@@ -1,8 +1,8 @@
-#include <time.h>
-#include <keyboardDriver.h>
 #include <stdint.h>
-#include <naiveConsole.h>
-#include <sysCalls.h>
+#include "include/time.h"
+#include "drivers/include/keyboardDriver.h"
+#include "include/naiveConsole.h"
+#include "include/sysCalls.h"
 
 static void int_20();
 static void int_21();

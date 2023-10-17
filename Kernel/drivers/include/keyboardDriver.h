@@ -6,5 +6,7 @@
 
 void keyboard_handler();
 
+extern int getKey();
+
 
 #endif /* KEYBOARD_DRIVER_H */
