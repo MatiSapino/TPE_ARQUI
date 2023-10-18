@@ -49,3 +49,18 @@ void putPixel(uint32_t hexColor, uint64_t x, uint64_t y) {
     framebuffer[offset+1]   =  (hexColor >> 8) & 0xFF; 
     framebuffer[offset+2]   =  (hexColor >> 16) & 0xFF;
 }
+
+void drawRectangle(uint64_t color, uint32_t x, uint32_t y, uint32_t width, uint32_t height) {
+    for (int i = 0; i < height; i++) {
+        for (int j = 0; j < width; j++) {
+            putPixel(color, x + j, y + i);
+        }
+    }
+    return;
+}
+
+void drawSquare(uint64_t hexColor, uint32_t x, uint32_t y, uint32_t width){
+	drawRectangle(hexColor, x, y, width, width);
+	return;
+}	
+
