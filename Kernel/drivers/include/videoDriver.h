@@ -9,6 +9,8 @@ void drawRectangle(uint64_t hexColor, uint32_t x, uint32_t y, uint32_t width, ui
 
 void drawSquare(uint64_t hexColor, uint32_t x, uint32_t y, uint32_t width);
 
+void drawLine(uint64_t hexColor, uint32_t x, uint32_t y, uint32_t length);
+
 
 
 #endif

@@ -64,3 +64,8 @@ void drawSquare(uint64_t hexColor, uint32_t x, uint32_t y, uint32_t width){
 	return;
 }	
 
+void drawLine(uint64_t hexColor, uint32_t x, uint32_t y, uint32_t length){
+	drawRectangle(hexColor, x, y, length, 1);
+	return;
+}
+
